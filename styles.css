@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1140px;
+    font-family: Roboto, sans-serif;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+}
