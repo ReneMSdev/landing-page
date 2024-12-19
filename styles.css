@@ -14,7 +14,7 @@ body {
 }
 
 .body-content {
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: 0 auto;
     padding: 20px;
 }
@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .logo {
@@ -56,7 +56,7 @@ body {
     height: 450px;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 40px 20px;
     
 }
 
@@ -112,8 +112,69 @@ body {
 }
 
 /* Information Section */
+
 .information-section {
     background-color: #FFFFFF; /* White background */
     padding: 40px 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-section h2 {
+    margin-bottom: 30px;
+}
+
+.information-row {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-subtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-subtext div {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3B82F6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-subtext p {
+    text-align: left;
+    font-size: 18px;
+    color: #98999b;
+    margin-bottom: 20px;
+}
+
+/* Quote Section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.quote-box {
+    padding: 50px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 350;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.citation {
+    font-size: 20px;
+    text-align: right;
 }
