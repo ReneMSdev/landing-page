@@ -160,7 +160,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 .quote-box {
@@ -177,4 +177,61 @@ body {
 .citation {
     font-size: 20px;
     text-align: right;
+}
+
+/* Call To Action Section */
+
+.cta-section {
+    height: 340px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3B82F6;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 50px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.cta-text {
+    width: 500px;
+}
+
+.cta-text h3 {
+    padding-bottom: 6px;
+}
+
+.cta-button {
+    padding: 10px 40px;
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2159d3;
+}
+
+/* Footer Section */
+
+.footer-section {
+    height: 100px;
+    color: rgb(196, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
